@@ -1,0 +1,173 @@
+
+
+body {
+    font-family: -webkit-body;
+}
+
+header {
+    background: url('header-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+}
+
+section {
+    padding: 60px 0;
+}
+
+footer {
+    background-color: #343a40;
+}
+
+
+/* About Section Styling */
+#about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+#about ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#about ul li {
+    margin-bottom: 10px;
+}
+
+#about img {
+    border-radius: 10%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
+
+.icon-box {
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-align: center;
+}
+
+.icon-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.icon-box i {
+    color: #007bff;
+}
+
+.icon-box h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+
+.icon-box p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #666;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.heading{
+    font-weight: 700;
+    font-family: -webkit-body;
+    padding-top:170px;
+}
+
+/* Projects Section Styling */
+#projects {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+#projects h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.carousel-item {
+    padding: 15px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-img-top {
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+/* Contact Section Styling */
+#contact {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #f8f9fa;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+#contact img {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    height: auto;
+}
+
+#contact form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#contact .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+#contact .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+
